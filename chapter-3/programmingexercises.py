@@ -1,12 +1,12 @@
 import math
 
 # calculating the volume and surface area of a sphere
-def main():
+def main1():
     r = int(input("Enter a radius: "))
     V = (4 / 3) * math.pi * pow(r, 3)
     A = 4 * math.pi * pow(r, 2)
     print(f"The volume of the sphere is {V} and the surface area is {A}")
-main()
+main1()
 
 # Calculating the cost per square
 def main():
